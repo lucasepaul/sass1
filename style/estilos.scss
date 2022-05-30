@@ -1,0 +1,58 @@
+@import "variables";
+@import "generales";
+@import "footer";
+
+
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .cabezal {
+            display: -ms-grid;
+            display: grid;
+            -ms-grid-columns: 1fr 1fr;
+            grid-template-columns: 1fr 1fr;
+            -ms-grid-row: 5;
+            grid-row: 5;
+            grid-area: 5cm;
+            -ms-grid-rows: 1fr;
+            grid-template-rows: 1fr;
+            background-color: rgb(229, 155, 155);
+            header {
+                height: 5cm;
+                    figure{
+                        display: flex;
+                        margin-left: 5cm;
+                    }
+                    nav {
+                        position: absolute;
+                        right: 100px;
+                        display: -webkit-box;
+                        display: -ms-flexbox;
+                        display: flex;
+                        -webkit-box-align: center;
+                        -ms-flex-align: center;
+                        align-items: center;
+                        top: 60px;
+                        li {
+                            display: inline-block;
+                            list-style-type: none;
+                            margin-top: 12px;
+                            padding: 5px 10px 10px 10px;
+                            a {
+                                text-decoration: none;
+                                color: black;
+                                font-size: 0.75cm;
+                                font-family: 'Quicksand', sans-serif;
+                                    
+                                }}}}}
+    
+ 
+
+
+  
+ 
+  
+  
+  

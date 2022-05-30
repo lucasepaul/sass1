@@ -1,0 +1,121 @@
+main {
+  font-size: 0.7cm;
+  background-color: #f0ea9e;
+}
+
+main h1 {
+  padding: 5px 10px 10px 200px;
+  font-size: 2cm;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: red;
+}
+
+main .txtpri {
+  padding: 30px 30px 30px 0px;
+  font-size: 0.8cm;
+  color: blue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main section .marshall, main section .videom {
+  color: red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.foot {
+  background-color: #e59b9b;
+  height: 3.5cm;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.foot .cont {
+  color: red;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+}
+
+.foot .redes {
+  color: red;
+  -ms-grid-column: 2;
+  grid-column: 2/2;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+}
+
+.foot ul {
+  color: blue;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.cabezal {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-row: 5;
+  grid-row: 5;
+  grid-area: 5cm;
+  -ms-grid-rows: 1fr;
+  grid-template-rows: 1fr;
+  background-color: #e59b9b;
+}
+
+.cabezal header {
+  height: 5cm;
+}
+
+.cabezal header figure {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 5cm;
+}
+
+.cabezal header nav {
+  position: absolute;
+  right: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  top: 60px;
+}
+
+.cabezal header nav li {
+  display: inline-block;
+  list-style-type: none;
+  margin-top: 12px;
+  padding: 5px 10px 10px 10px;
+}
+
+.cabezal header nav li a {
+  text-decoration: none;
+  color: black;
+  font-size: 0.75cm;
+  font-family: 'Quicksand', sans-serif;
+}
+/*# sourceMappingURL=estilos.css.map */

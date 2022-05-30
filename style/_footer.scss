@@ -1,0 +1,29 @@
+.foot {
+    background-color: rgb(229, 155, 155);
+    height: 3.5cm;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+        .cont {
+            color:$titulo;
+            -ms-grid-column: 1;
+            -ms-grid-column-span: 1;
+            grid-column: 1/2;
+            -ms-grid-row: 1;
+            -ms-grid-row-span: 1;
+            grid-row: 1/2;
+        }
+        .redes {
+            color:$titulo;
+            -ms-grid-column: 2;
+            grid-column: 2/2;
+            -ms-grid-row: 1;
+            -ms-grid-row-span: 1;
+            grid-row: 1/2;
+        }
+        ul{
+            color:$texto;
+        }}

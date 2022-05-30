@@ -1,0 +1,32 @@
+  
+  main {
+    font-size: 0.7cm;
+    background-color: #f0ea9e;
+    h1 {
+        padding: 5px 10px 10px 200px;
+        font-size: 2cm;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:$titulo;
+        }
+    .txtpri {
+        padding: 30px 30px 30px 0px;  
+        font-size: 0.8cm;
+        color:$texto;
+        font-family: Arial, Helvetica, sans-serif;      
+        }
+    section{
+            .marshall, .videom{
+                color:$titulo;
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-align: center;
+                -ms-flex-align: center;
+                align-items: center;
+                -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                justify-content: center;
+            }
+        }}
+
+
